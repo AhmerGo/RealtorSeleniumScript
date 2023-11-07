@@ -1,4 +1,4 @@
-# Real Estate Scraper
+#Real Estate Scraper
 This project consists of a Python script that automates the process of searching for real estate listings on realtor.com. It applies various search filters, navigates the results, and collects information about each listing.
 
 # Features
