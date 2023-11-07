@@ -1,0 +1,47 @@
+Real Estate Scraper
+This project consists of a Python script that automates the process of searching for real estate listings on realtor.com. It applies various search filters, navigates the results, and collects information about each listing.
+
+Features
+Automated search with custom keywords
+Application of multiple search filters
+Navigation through search results
+Collection of details from individual property listings
+Randomized wait times to simulate human interaction
+Prerequisites
+Before you begin, ensure you have met the following requirements:
+
+Python 3.6 or above installed on your system
+A virtual environment is recommended for the Python project (venv)
+SeleniumBase package installed for easy WebDriver management
+Installation
+To install the required Python packages, run the following command in your virtual environment:
+
+bash
+Copy code
+pip install seleniumbase
+You also need to download the appropriate WebDriver for the browser you want to automate. For Google Chrome, you would typically download chromedriver.
+
+Usage
+To run the script, navigate to the project directory and execute:
+
+bash
+Copy code
+python Realtor.py
+Make sure to activate your virtual environment before running the script.
+
+Script Details
+Below is a brief explanation of the main parts of the script:
+
+Initialization: Set up the browser window and navigate to the target URL.
+Search: Input the search term and perform the search operation.
+Filter Application: Apply filters for more refined search results.
+Data Extraction: Extract and print the agent overview for each property listing.
+Please note: The script includes deliberate pauses using random_wait to prevent being detected as an automated bot and to mimic human-like interactions.
+
+Contributing
+Contributions to this project are welcome. Please adhere to this project's code of conduct.
+
+
+Contact
+If you have any questions or comments about this project, please open an issue or submit a pull request.
+
